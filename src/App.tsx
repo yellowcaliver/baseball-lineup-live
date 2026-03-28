@@ -1,3 +1,4 @@
+import { supabase } from './lib/supabase'
 import { useState } from "react";
 import Scoreboard from "./components/Scoreboard";
 import LiveTextPanel from "./components/LiveTextPanel";
